@@ -14,3 +14,19 @@ run_analysis: Is the script used to transform the original files given for this 
 
 
 tidyData: Final product of the project. An independent tidy data set with the average of each variable for each activity and each subject.
+
+Codebook:
+
+trainingData: Create the final training set by merging yTrain, subjectTrain, and xTrain
+
+testData: final test set by merging the xTest, yTest and subjectTest data
+
+colNames:  a vector for the column names from the finalData, which is used to select the desired mean() & stddev() columns
+
+logicalVector: logicalVector that contains TRUE values for the ID, mean() & stddev() columns and FALSE for others
+
+finalData: Subset finalData table based on the logicalVector to keep only desired columns containing training and test data
+
+finalDataNoActivityType: new table without the activityType column
+
+tidyData : table to include just the mean of each variable for each activity and each subject
