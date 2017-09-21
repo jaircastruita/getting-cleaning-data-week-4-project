@@ -13,8 +13,6 @@ run_analysis: Is the script used to transform the original files given for this 
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-tidyData: Final product of the project. An independent tidy data set with the average of each variable for each activity and each subject.
-
 Codebook:
 
 trainingData: Create the final training set by merging yTrain, subjectTrain, and xTrain
