@@ -1,4 +1,4 @@
-# getting-cleaning-data-week-4-project
+# getting cleaning data week 4 project
 
 This project is conformed of 3 files of analysis:
 
